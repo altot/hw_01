@@ -41,7 +41,7 @@
  - vagrant ssh
 Вроде все крутится как задумывалось.
 
-##Задание 3 Загрузить Vagrant box в Vagrant Cloud
+## Задание 3 Загрузить Vagrant box в Vagrant Cloud
 Авторизуемся в cloud
  - vagrant cloud auth login
 Публикуем полученный box:
