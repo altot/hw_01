@@ -1,4 +1,4 @@
-Домашняя работа №1 
+## Домашняя работа №1 
 
 Цель домашнего задания
 Научиться обновлять ядро в ОС Linux. Получение навыков работы с Vagrant, Packer и публикацией готовых образов в Vagrant Cloud. 
@@ -16,7 +16,7 @@
 делаем форк https://github.com/dmitry-lyutenko/manual_kernel_update
 переносим на локальную машину  git clone  git@github.com:altot/manual_kernel_update.git
 
-Задание 1 Обновить ядро ОС из репозитория ELRepo
+## Задание 1 Обновить ядро ОС из репозитория ELRepo
 Выполняем команды:
  - vagrant up
  - vagrant ssh
@@ -27,7 +27,7 @@
  - sudo reboot
  - vagrant ssh
  - uname -r - тут убеждаемся, что ядро обновилось.
-Задание 2 Создать Vagrant box c помощью Packer
+## Задание 2 Создать Vagrant box c помощью Packer
  - Используем готовые конфиги из manual_kernel_update
  - Убираем неактуальный в текущей версии packer параметр "iso_checksum_type" из centos.json
  - Выполняем команды:
@@ -41,7 +41,7 @@
  - vagrant ssh
 Вроде все крутится как задумывалось.
 
-Задание 3 Загрузить Vagrant box в Vagrant Cloud
+##Задание 3 Загрузить Vagrant box в Vagrant Cloud
 Авторизуемся в cloud
  - vagrant cloud auth login
 Публикуем полученный box:
